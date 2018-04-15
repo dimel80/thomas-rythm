@@ -104,6 +104,16 @@ text color, text align, text transform, float, backgrounds colors,
 	font-weight: 300;
 	line-height:  1.73em;
 }
+.icon {
+	font-size: 48px;
+	color: #111;
+}
+.icon-title {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.4em;
+	margin: 20px 20px;
+}
 blockquote, .blockquote{
 	font-size: 24px;
 	font-weight: 300;
@@ -222,6 +232,28 @@ blockquote span,
 .team-item .team-item-img:hover .team-item-skills {
 	opacity: 1;
 }
+.why-choose-us .col-4 {
+	margin-bottom: 70px;
+}
+.default-section .news-section {
+	overflow: hidden;
+}
+.news-section span {
+	float: left;
+}
+.default-section .blog-link {
+	float: right;
+}
+.news-section a{
+	font-size: 11px;
+	letter-spacing: 0.4em;
+	color: #575656;
+	float: right;
+}
+.news-section a:hover{
+color: #000;
+} 
+
 /* ----- About studio end ----- */
 /*=== Custom style end ===*/
 
