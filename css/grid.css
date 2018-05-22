@@ -8,6 +8,7 @@
     width: 100%;
     display: block;
     clear: both;
+    height: 0;
 }
 .col {
     position: relative;
@@ -38,7 +39,7 @@
     width: 58.333333333%;
 }
 .col-8 {
-    width: 16.66666667%;
+    width: 66.66666667%;
 }
 .col-9 {
     width: 75%;
