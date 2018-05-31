@@ -160,6 +160,11 @@ blockquote span,
 	text-transform: uppercase;
 	letter-spacing: .2em;
 }
+@media (max-width: 991px) {
+	blockquote {
+		margin-bottom: 30px;
+	}
+}
 .btn{
 	display: inline-block;
 	padding: 12px 20px;
@@ -248,6 +253,17 @@ textarea.form-control {
 .header .header-nav li + li{
 	margin-left: 35px;
 }
+.slicknav_menu {
+	display: none;
+}
+@media (max-width: 767px) {
+	.slicknav_menu {
+		display: block;
+	}
+	.header .header-nav{
+		display: none;
+	}
+}
 /*=== Default components end ===*/
 /* Guide styles start */
 .guide-section form .form-control {
@@ -286,12 +302,21 @@ textarea.form-control {
 	letter-spacing: 1.7em;
 	text-indent: 1.7em;
 	text-transform: uppercase;
+	margin-bottom: 90px;
 }
 .inner span{
 	display: block;
-	margin-top: 90px;
 	font: 300 19px/1 'Open Sans', sans-serif;
 	color: rgba(254, 254, 254, .5);
+}
+@media (max-width: 991px) {
+	.inner .inner-content h1 {
+		font-size: 30px;
+		letter-spacing: 0.7em;
+		margin-bottom: 50px;
+		text-indent: 0.7em;
+
+	}
 }
 /* ----- Inner end ----- */
 /* ----- About studio ----- */
@@ -299,6 +324,10 @@ textarea.form-control {
 	overflow: hidden;
 	width: 100%;
 } */
+.about-studio {
+	overflow: hidden;
+}
+
 .team-item .team-item-img {
 	position: relative;
 }
@@ -366,6 +395,17 @@ textarea.form-control {
 .team-item .team-item-img:hover .photography {
 	width: 95%;
 }
+@media (max-width: 991px) {
+	.team-item-role {
+		font-size: 11px;
+	}
+	.team-item-name {
+		font-size: 13px;
+	}
+	.team-wrapper {
+		margin-top: 20px;
+	}
+}
 /* ----- About studio end ----- */
 /* Services */
 #tabs .tabs-nav li {
@@ -373,6 +413,10 @@ textarea.form-control {
 	width: 20%;
 	text-align: center;
 }
+#tabs .tabs-nav {
+	overflow: hidden;
+	margin-bottom: 75px;
+} 
 #tabs .tabs-nav li span {
 	display: block;
 }
@@ -399,6 +443,22 @@ textarea.form-control {
 	color: #fff;
 	background-color: #111;
 }
+#tabs .ui-tabs-panel {
+	clear: both;
+}
+@media (max-width:991px) {
+	#tabs .icon-title {
+		font-size: 12px;
+	}
+	#tabs .tabs-nav {
+		margin-bottom: 40px;
+	}
+}
+@media (max-width: 567px) {
+	#tabs .tabs-nav li {
+		width: 33.333%;
+	}
+}
 /* /Services end */
 /* lets talk */
 .lets-talk-content {
@@ -410,6 +470,12 @@ textarea.form-control {
 }
 .lets-talk .Imac {
 	margin-top: -35px;
+}
+@media (max-width: 991px) {
+	.lets-talk-content {
+		text-align: center;
+		padding: 70px 0;
+	}
 }
 /* / lets talk end */
 /* Portfolio */
@@ -446,9 +512,18 @@ textarea.form-control {
 	width: 100%;
 }
 .portfolio-img {
-	width: 33.2%
+	width: 32.2%
 }
-
+@media (max-width: 991px) {
+	.portfolio-img {
+		width: 49%;
+	}
+}
+@media (max-width: 567px) {
+	#tabss li{
+		margin-bottom: 20px;
+	}
+}
 /* .portfolio .default-text::before {
 	content: '';
 	height: 0;
@@ -461,6 +536,14 @@ textarea.form-control {
 }
 .why-choose-us .col p{
 	margin-top: 20px;
+}
+@media (max-width: 991px) {
+.why-choose-us .col {
+	text-align: center;
+}
+.why-choose-us .col-4 {
+	margin-bottom: 30px;
+}
 }
 /* / why chhose us end */
 /* review carousel start */
@@ -533,7 +616,16 @@ textarea.form-control {
 	right: 0;
 	margin-right: -31px;
 }
-/* review carousel start */
+.reviews .slide-content p {
+	padding: 0 50px 0 50px;
+}
+@media (max-width: 991px) {
+	.reviews-carousel {
+		padding: 70px 0;
+		
+	}
+}
+/* review carousel end */
 /* news section */
 .default-section .news-section {
 	overflow: hidden;
@@ -574,6 +666,14 @@ color: #000;
 }
 .news-text a {
 	display: inline-block;
+}
+@media (max-width: 991px) {
+.news .news-item {
+	margin-bottom: 30px;
+}
+.news .news-item .news-item-img img {
+	width: 100%;
+}
 }
 /* / news section end */
 /* subscribe start*/
@@ -712,8 +812,7 @@ color: #000;
 }
 /* footer end */
 /*=== Custom style end ===*/
-
-
+/* Media */
 
 
 
